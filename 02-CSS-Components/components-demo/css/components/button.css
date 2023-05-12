@@ -1,0 +1,28 @@
+.btn-green {
+  background-color: #245953;
+  color: #FFFFFF;
+}
+
+.btn-green:hover {
+  background-color: #9AD6CF;
+  color: #245953;
+}
+
+.btn-pink {
+  background-color: #A04048;
+  color: #FFFFFF;
+}
+
+.btn-pink:hover {
+  background-color: #DCA7AC;
+  color: #A04048;
+}
+
+.btn {
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 16px 24px;
+  font-size: 20px;
+  border-radius: 8px;
+  font-weight: 700;
+  transition: all 0.3s;
+}

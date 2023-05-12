@@ -1,0 +1,12 @@
+.banner {
+  background-image: url("/images/background.jpg");
+  /* padding: 80px 0; */
+  height: 90vh;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+}
+
+.banner p {
+  margin-bottom: 40px;
+}

@@ -1,0 +1,72 @@
+.card-plan {
+  box-sizing: border-box;
+  background: linear-gradient(0deg, rgba(68,184,222,1) 0%, rgba(124,242,206,1) 100%);
+  color: white;
+  text-align: center;
+  padding: 24px;
+  border-radius: 24px;
+  transition: 1s;
+  width: 25vw;
+}
+
+.card-plan:hover {
+  border-radius: 24px 24px 320px 24px;
+}
+
+.plan-name {
+  margin-bottom: 24px;
+}
+
+.plan-price {
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+  margin-bottom: 36px;
+}
+
+.currency {
+  font-size: 24px;
+}
+
+.amount {
+  font-size: 48px;
+}
+
+.per-month {
+  font-size: 12px;
+  align-self: end;
+}
+
+.card-hidden {
+  z-index: -1;
+  box-sizing: border-box;
+  padding: 24px;
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  position: absolute;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 24px;
+  width: 25vw;
+  font-size: 8px;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.line {
+  background-color: white;
+  width: 36px;
+  height: 4px;
+}
+
+.card-plan p {
+  font-size: 12px;
+}
